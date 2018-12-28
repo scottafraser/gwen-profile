@@ -14,16 +14,13 @@ const Card = ({ title, cardImage }) => (
       alignItems: 'center',
     }}
   >
-    <h1 style={{ margin: 0 }}>
-      <Link
-        to="/"
-        style={{
-          color: `white`,
-          textDecoration: `none`,
-        }}
-      >
-        {title}
-      </Link>
+    <h1
+      style={{
+        color: `white`,
+        textDecoration: `none`,
+      }}
+    >
+      {title}
     </h1>
   </div>
 )

@@ -11,9 +11,10 @@ const graphics = () => (
     <SEO title="Projects" />
     <h1>Graphics</h1>
     <div>
-      <Card cardImage={Portlandia} title="Portlandia" />
+      <Link to="/portlandia">
+        <Card cardImage={Portlandia} title="Portlandia" />
+      </Link>
     </div>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
