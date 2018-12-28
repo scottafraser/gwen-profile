@@ -12,6 +12,7 @@ const Card = ({ title, cardImage }) => (
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
+      margin: '2rem',
     }}
   >
     <h1

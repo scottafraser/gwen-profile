@@ -1,3 +1,7 @@
+.indexButtons {
+  margin: 10px;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -37,14 +41,14 @@ progress {
 template {
   display: none;
 }
-a {
+/* a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
   outline-width: 0;
-}
+} */
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;

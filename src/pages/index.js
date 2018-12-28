@@ -9,12 +9,32 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>I'm Gwen</h1>
-    <p>Graphic and Set design for film, television and commercials.</p>
-    <Link to="/graphics/">
-      <h1>Graphics</h1>
-    </Link>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={{ width: '200px' }}>
       <Image />
+    </div>
+    <p>Graphic and Set design for film, television and commercials.</p>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+      }}
+    >
+      <Link
+        to="/graphics/"
+        style={{
+          color: `black`,
+        }}
+      >
+        <h1 className="indexButtons">Graphics</h1>
+      </Link>
+      <Link
+        to="/set-dressing/"
+        style={{
+          color: `black`,
+        }}
+      >
+        <h1 className="indexButtons">Set Dressing</h1>
+      </Link>
     </div>
   </Layout>
 )
