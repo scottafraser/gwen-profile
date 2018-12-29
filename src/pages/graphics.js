@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Portlandia from '../images/Graphics/PortlandiaS7/RuntheJewels.jpg'
 import LAFF from '../images/Graphics/LAFF/ChinaDragon.jpg'
-import AmericanVandal from '../images/Graphics/American Vandal/PoliceStatement.jpg'
+import AmericanVandal from '../images/Graphics/AmericanVandal/PoliceStatement.jpg'
 import Card from '../components/card.js'
 
 const graphics = () => (
