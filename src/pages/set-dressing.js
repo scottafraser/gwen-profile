@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Image from '../components/image.js'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Microsoft from '../images/SetDresser/Microsoft/bike.png'
@@ -19,13 +18,28 @@ const setDresser = () => (
     >
       <div>
         <h1>Set Dresser</h1>
-        <Link to="/microsoft">
+        <Link
+          to="/microsoft"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
           <Card cardImage={Microsoft} title="Microsoft" />
         </Link>
-        <Link to="/american-vandal">
+        <Link
+          to="/american-vandal"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
           <Card cardImage={Schmidt_s} title="Schmidt's" />
         </Link>
-        <Link to="/tlogc">
+        <Link
+          to="/tlogc"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
           <Card cardImage={tlogc} title="TLOGC" />
         </Link>
       </div>

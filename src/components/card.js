@@ -16,9 +16,12 @@ const Card = ({ title, cardImage }) => (
     }}
   >
     <h1
+      className="card-title"
       style={{
         color: `white`,
         textDecoration: `none`,
+        border: 'black solid',
+        backgroundColor: 'black',
       }}
     >
       {title}

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Image from '../components/image.js'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Portlandia from '../images/Graphics/PortlandiaS7/RuntheJewels.jpg'
+import Portlandia2 from '../images/Graphics/PortlandiaS8/Cancel_It.jpg'
 import LAFF from '../images/Graphics/LAFF/ChinaDragon.jpg'
 import AmericanVandal from '../images/Graphics/AmericanVandal/PoliceStatement.jpg'
 import Card from '../components/card.js'
@@ -19,16 +19,44 @@ const graphics = () => (
     >
       <div>
         <h1>Graphics</h1>
-        <Link to="/portlandia">
-          <Card cardImage={Portlandia} title="Portlandia" />
+        <Link
+          to="/portlandiaSE7"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
+          <Card cardImage={Portlandia} title="Portlandia Season 7" />
         </Link>
-        <Link to="/american-vandal">
+        <Link
+          to="/portlandiaSE8"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
+          <Card cardImage={Portlandia2} title="Portlandia Season 8" />
+        </Link>
+        <Link
+          to="/american-vandal"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
           <Card cardImage={AmericanVandal} title="American Vandal" />
         </Link>
-        <Link to="/laff">
+        <Link
+          to="/laff"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
           <Card cardImage={LAFF} title="Life After First Failure" />
         </Link>
-        <Link to="/misc">
+        <Link
+          to="/misc"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
           <Card cardImage={Portlandia} title="Misc" />
         </Link>
       </div>

@@ -11,28 +11,11 @@ const IndexPage = () => (
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '400px',
+        height: '200px',
       }}
     >
-      <Link
-        to="/graphics/"
-        style={{
-          color: `black`,
-        }}
-      >
-        <h1 className="indexButtons">Graphics</h1>
-      </Link>
-      <Link
-        to="/set-dressing/"
-        style={{
-          color: `black`,
-        }}
-      >
-        <h1 className="indexButtons">Set Dressing</h1>
-      </Link>
+      <h1>I'm Gwen!</h1>
     </div>
-    <br />
-    <p>Graphics, Art and Design.</p>
   </Layout>
 )
 
