@@ -9,7 +9,7 @@ import Card from '../components/card.js'
 
 const setDresser = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Set Dressing" />
     <div
       style={{
         display: 'flex',

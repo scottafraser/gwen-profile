@@ -4,6 +4,7 @@ import React from 'react'
 
 const Card = ({ title, cardImage }) => (
   <div
+    className="title-card"
     style={{
       backgroundImage: 'url(' + cardImage + ')',
       backgroundSize: '100% 100%',

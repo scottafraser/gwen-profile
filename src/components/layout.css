@@ -647,13 +647,18 @@ pre tt:after {
   .index-squares a {
     height: 200px;
   }
+  .title-card {
+    width: 100vw !important;
+    background-size: auto !important;
+  }
+  .title-card h1 {
+    max-width: 300px;
+  }
 }
 
 @media only screen and (min-width: 700px) {
   .index-squares {
     display: flex;
-    /* height: 400px;
-    width: 400px; */
     flex-direction: row;
   }
   .index-squares a {

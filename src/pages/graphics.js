@@ -10,8 +10,9 @@ import Card from '../components/card.js'
 
 const graphics = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Graphics" />
     <div
+      classname="card-wrapper"
       style={{
         display: 'flex',
         justifyContent: 'center',
