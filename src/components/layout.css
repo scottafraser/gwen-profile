@@ -640,8 +640,24 @@ pre tt:before,
 pre tt:after {
   content: '';
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   html {
     font-size: 100%;
+  }
+  .index-squares a {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .index-squares {
+    display: flex;
+    /* height: 400px;
+    width: 400px; */
+    flex-direction: row;
+  }
+  .index-squares a {
+    height: 400px;
+    width: 400px;
   }
 }

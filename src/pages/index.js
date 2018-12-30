@@ -14,37 +14,43 @@ const IndexPage = () => (
         height: '400px',
       }}
     >
-      <Link
-        to="/graphics/"
-        style={{
-          color: `black`,
-          border: 'solid black',
-          height: '400px',
-          width: '400px',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          margin: '10px',
-        }}
+      <div
+        className="index-squares"
+        style={
+          {
+            // height: '80%',
+            // width: '80%',
+          }
+        }
       >
-        <h1 className="indexButtons">Graphics</h1>
-      </Link>
-      <Link
-        to="/set-dressing/"
-        style={{
-          color: `white`,
-          background: 'black',
-          border: 'solid black',
-          height: '400px',
-          width: '400px',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          margin: '10px',
-        }}
-      >
-        <h1 className="indexButtons">Set Dressing</h1>
-      </Link>
+        <Link
+          to="/graphics/"
+          style={{
+            color: `black`,
+            border: 'solid black',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            margin: '10px',
+          }}
+        >
+          <h1 className="indexButtons">Graphics</h1>
+        </Link>
+        <Link
+          to="/set-dressing/"
+          style={{
+            color: `white`,
+            background: 'black',
+            border: 'solid black',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            margin: '10px',
+          }}
+        >
+          <h1 className="indexButtons">Set Dressing</h1>
+        </Link>
+      </div>
     </div>
     <br />
     <p>Graphics, Art and Design.</p>
