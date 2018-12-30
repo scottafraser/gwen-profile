@@ -9,13 +9,13 @@ const Header = ({ siteTitle }) => (
       background: `white`,
       // marginBottom: `1.45rem`,
       display: 'flex',
-      justifyContent: 'space-between',
+      justifyContent: 'center',
       alignItems: 'center',
     }}
   >
     <div
       style={{
-        width: 200,
+        width: 450,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -29,11 +29,11 @@ const Header = ({ siteTitle }) => (
         <Image />
       </Link>
     </div>
-    <div className="nav-links">
+    {/* <div className="nav-links">
       <Link to="/graphics">Graphics</Link>
       <Link to="/set-dressing">Set Dressing</Link>
       <Link to="/about">About</Link>
-    </div>
+    </div> */}
   </div>
 )
 

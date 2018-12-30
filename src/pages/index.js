@@ -18,6 +18,13 @@ const IndexPage = () => (
         to="/graphics/"
         style={{
           color: `black`,
+          border: 'solid black',
+          height: '400px',
+          width: '400px',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          margin: '10px',
         }}
       >
         <h1 className="indexButtons">Graphics</h1>
@@ -25,7 +32,15 @@ const IndexPage = () => (
       <Link
         to="/set-dressing/"
         style={{
-          color: `black`,
+          color: `white`,
+          background: 'black',
+          border: 'solid black',
+          height: '400px',
+          width: '400px',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          margin: '10px',
         }}
       >
         <h1 className="indexButtons">Set Dressing</h1>

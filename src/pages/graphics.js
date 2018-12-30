@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Portlandia from '../images/Graphics/PortlandiaS7/RuntheJewels.jpg'
-import Portlandia2 from '../images/Graphics/PortlandiaS8/Cancel_It.jpg'
+import Portlandia2 from '../images/Graphics/PortlandiaS8/CancelIt1.jpg'
 import LAFF from '../images/Graphics/LAFF/ChinaDragon.jpg'
 import AmericanVandal from '../images/Graphics/AmericanVandal/PoliceStatement.jpg'
 import Card from '../components/card.js'
@@ -50,14 +50,6 @@ const graphics = () => (
           }}
         >
           <Card cardImage={LAFF} title="Life After First Failure" />
-        </Link>
-        <Link
-          to="/misc"
-          style={{
-            textDecoration: 'none',
-          }}
-        >
-          <Card cardImage={Portlandia} title="Misc" />
         </Link>
       </div>
     </div>
