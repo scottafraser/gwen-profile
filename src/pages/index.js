@@ -5,24 +5,20 @@ import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Home"
+      keywords={[`gwen`, `hopman`, `damon`, `gwen hopman-damon`]}
+    />
+    <p>Graphics, Art and Design.</p>
     <div
       style={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '400px',
+        height: '300px',
       }}
     >
-      <div
-        className="index-squares"
-        style={
-          {
-            // height: '80%',
-            // width: '80%',
-          }
-        }
-      >
+      <div className="index-squares">
         <Link
           to="/graphics/"
           style={{
@@ -53,7 +49,6 @@ const IndexPage = () => (
       </div>
     </div>
     <br />
-    <p>Graphics, Art and Design.</p>
   </Layout>
 )
 

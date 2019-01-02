@@ -24,7 +24,7 @@ const PortlandiaS7 = props => (
         <Img fluid={props.data.imageNine.childImageSharp.fluid} />
         <Img fluid={props.data.imageTen.childImageSharp.fluid} />
         <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
-        <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
+        {/* <Img fluid={props.data.imageTwelve.childImageSharp.fluid} /> */}
         <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
         <Img fluid={props.data.imageFourteen.childImageSharp.fluid} />
       </div>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
 .footer-links a {
+  margin: 10px;
   text-decoration: none;
   color: black;
 }
@@ -653,6 +654,9 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+  .index-squares {
+    padding-top: 100px;
+  }
   .index-squares a {
     height: 200px;
   }
@@ -672,7 +676,7 @@ pre tt:after {
     flex-direction: row;
   }
   .index-squares a {
-    height: 400px;
+    height: 200px;
     width: 400px;
   }
 }
