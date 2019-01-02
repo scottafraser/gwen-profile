@@ -16,17 +16,18 @@ const Card = ({ title, cardImage }) => (
       margin: '2rem',
     }}
   >
-    <h1
+    <h3
       className="card-title"
       style={{
         color: `white`,
         textDecoration: `none`,
-        border: 'black solid',
-        backgroundColor: 'black',
+        textShadow: '2px 2px black',
+        // border: 'white solid',
+        // backgroundColor: 'white',
       }}
     >
       {title}
-    </h1>
+    </h3>
   </div>
 )
 

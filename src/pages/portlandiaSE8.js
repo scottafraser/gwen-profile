@@ -13,11 +13,11 @@ const PortlandiaS8 = props => (
       }}
     >
       <div className="photo-stack">
-        <h1>Portlandia // Season 8</h1>
+        <h3>Portlandia // Season 8</h3>
         <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-        <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+        {/* <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
         <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-        <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+        <Img fluid={props.data.imageFour.childImageSharp.fluid} /> */}
         <Img fluid={props.data.image5.childImageSharp.fluid} />
         <Img fluid={props.data.image6.childImageSharp.fluid} />
         <Img fluid={props.data.image7.childImageSharp.fluid} />
@@ -70,21 +70,21 @@ export const pageQuery = graphql`
     ) {
       ...season8Img
     }
-    imageTwo: file(
-      relativePath: { eq: "Graphics/PortlandiaS8/BumperSticker1.jpg" }
-    ) {
-      ...season8Img
-    }
-    imageThree: file(
-      relativePath: { eq: "Graphics/PortlandiaS8/BumperSticker2.jpg" }
-    ) {
-      ...season8Img
-    }
-    imageFour: file(
-      relativePath: { eq: "Graphics/PortlandiaS8/BumperSticker3.jpg" }
-    ) {
-      ...season8Img
-    }
+    # imageTwo: file(
+    #   relativePath: { eq: "Graphics/PortlandiaS8/BumperSticker1.jpg" }
+    # ) {
+    #   ...season8Img
+    # }
+    # imageThree: file(
+    #   relativePath: { eq: "Graphics/PortlandiaS8/BumperSticker2.jpg" }
+    # ) {
+    #   ...season8Img
+    # }
+    # imageFour: file(
+    #   relativePath: { eq: "Graphics/PortlandiaS8/BumperSticker3.jpg" }
+    # ) {
+    #   ...season8Img
+    # }
     image5: file(relativePath: { eq: "Graphics/PortlandiaS8/Canada.jpg" }) {
       ...season7Image
     }

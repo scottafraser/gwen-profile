@@ -13,7 +13,7 @@ const PortlandiaS7 = props => (
       }}
     >
       <div className="photo-stack">
-        <h1>Portlandia // Season 7</h1>
+        <h3>Portlandia // Season 7</h3>
         <Img fluid={props.data.imageOne.childImageSharp.fluid} />
         <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
         <Img fluid={props.data.imageThree.childImageSharp.fluid} />

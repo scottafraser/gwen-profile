@@ -13,7 +13,7 @@ const laff = props => (
       }}
     >
       <div className="photo-stack">
-        <h1>Life After First Failure</h1>
+        <h3>Life After First Failure</h3>
         <Img fluid={props.data.image1.childImageSharp.fluid} />
         <Img fluid={props.data.image2.childImageSharp.fluid} />
         <Img fluid={props.data.image3.childImageSharp.fluid} />

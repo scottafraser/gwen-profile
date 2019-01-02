@@ -10,10 +10,11 @@ const Vandal = props => (
       style={{
         display: 'flex',
         justifyContent: 'center',
+        width: '100%',
       }}
     >
       <div className="photo-stack">
-        <h1>American Vandal</h1>
+        <h3>American Vandal</h3>
         <Img fluid={props.data.image1.childImageSharp.fluid} />
         <Img fluid={props.data.image2.childImageSharp.fluid} />
         <Img fluid={props.data.image3.childImageSharp.fluid} />
@@ -26,7 +27,6 @@ const Vandal = props => (
         <Img fluid={props.data.image10.childImageSharp.fluid} />
         <Img fluid={props.data.image11.childImageSharp.fluid} />
         <Img fluid={props.data.image12.childImageSharp.fluid} />
-        <Img fluid={props.data.image13.childImageSharp.fluid} />
         <Img fluid={props.data.image14.childImageSharp.fluid} />
         <Img fluid={props.data.image15.childImageSharp.fluid} />
         <Img fluid={props.data.image16.childImageSharp.fluid} />
@@ -102,11 +102,6 @@ export const pageQuery = graphql`
       ...VandalImg
     }
     image12: file(
-      relativePath: { eq: "Graphics/AmericanVandal/Laxatives1.jpg" }
-    ) {
-      ...VandalImg
-    }
-    image13: file(
       relativePath: { eq: "Graphics/AmericanVandal/Laxatives1.jpg" }
     ) {
       ...VandalImg

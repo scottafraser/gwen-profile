@@ -75,6 +75,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import './layout.css'
+import { black } from 'ansi-colors'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -91,11 +92,11 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
+          className="layout"
           style={{
             height: '100px',
             margin: `0 auto`,
             maxWidth: '100%',
-            padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
             textAlign: 'center',
           }}
@@ -103,11 +104,18 @@ const Layout = ({ children }) => (
           {children}
           <footer>
             <div
+              className="footer-links"
               style={{
                 marginTop: '200px',
+                marginBottom: '10px',
+                fontSize: 'small',
               }}
             >
-              © 2018, Built by Scott
+              <a href="tel:1-503-421-4508">Phone: 503.421.4508</a>
+              &nbsp; // &nbsp;
+              <a href="mailto: gwen.damon@gmail.com">
+                Email: gwen.damon@gmail.com
+              </a>
             </div>
           </footer>
         </div>

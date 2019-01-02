@@ -13,7 +13,7 @@ const schmidts = props => (
       }}
     >
       <div className="photo-stack">
-        <h1>Schmidt's</h1>
+        <h3>Schmidt's</h3>
         <Img fluid={props.data.image1.childImageSharp.fluid} />
         <Img fluid={props.data.image2.childImageSharp.fluid} />
         <Img fluid={props.data.image3.childImageSharp.fluid} />
